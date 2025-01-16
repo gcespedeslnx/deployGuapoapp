@@ -1,6 +1,6 @@
 import { format, addHours } from 'date-fns'
 import { es } from 'date-fns/locale'
-// import { tz } from '@date-fns/tz'
+//import { tz } from '@date-fns/tz'
 
 const formatDate = (date, language) => {
   if (language === 'es') {

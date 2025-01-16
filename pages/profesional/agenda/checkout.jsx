@@ -59,7 +59,7 @@ const AgendaCheckout = () => {
     // console.log('Checkout Consultant ID:', sessionConsultantId)
     // console.log('Checkout Consultant Name:', sessionConsultantName)
   }, [])
-
+ 
   const onSubmit = async (data) => {
     try {
       const response = await fetch(
